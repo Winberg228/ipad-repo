@@ -1,25 +1,12 @@
-Package: openssh
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Maxim
-Filename: debs/openssh_7.9p1-3_iphoneos-arm.deb
-Size: 612852
-SHA256: 6732ca4ff67f0c5fb024fd622ed826b6c30a8d72bdf79a091c14abf830ab2d2c
-Description: Manual upload for iOS 10.3.4
-
 Package: openssl
-Version: 1.0.2r-1
+Version: 0.9.8zg-13
 Architecture: iphoneos-arm
-Filename: debs/openssl_1.0.2r-1_iphoneos-arm.deb
-Size: 680000
-Description: SSL Library
+Filename: debs/openssl_0.9.8zg-13_iphoneos-arm.deb
+Description: SSL Library for iOS 10
 
-Package: org.tihmstar.kDFUApp-1.0.2.deb
-Version: 1.0
+Package: openssh
+Version: 6.7p1-13
 Architecture: iphoneos-arm
-Maintainer: Maxim
-Filename: debs/org.tihmstar.kDFUApp-1.0.2.deb
-Size: 80458
-SHA256: b52de8c051332425576b11a3d9ce9637a70c184afc5479ad449d1467a4868271
-Description: Manual upload for iOS 10.3.4
-
+Depends: openssl
+Filename: debs/openssh_6.7p1-13_iphoneos-arm.deb
+Description: SSH Server
