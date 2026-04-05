@@ -10,7 +10,6 @@ Description: Manual upload for iOS 10.3.4
 Package: openssl
 Version: 1.0.2r-1
 Architecture: iphoneos-arm
-Depends: ca-certificates
 Filename: debs/openssl_1.0.2r-1_iphoneos-arm.deb
 Size: 680000
 Description: SSL Library
